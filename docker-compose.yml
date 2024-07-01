@@ -38,5 +38,14 @@ services:
     networks:
       - app-network
 
+  simurg_plotter:
+    build:
+      context: .
+      target: simurg_plotter
+    image: simurg_plotter
+    container_name: simurg_plotter
+    networks:
+      - app-network
+
 networks:
   app-network:

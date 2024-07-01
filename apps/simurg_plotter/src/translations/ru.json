@@ -1,0 +1,9 @@
+{
+  "content": {
+    "jsonResult": "Результат JSON"
+  },
+  "form": {
+    "submit": "Отправить"
+  },
+  "Graph Generator": "Генератор Графиков"
+}

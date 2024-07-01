@@ -19,5 +19,12 @@
     "serviceName": "gecrec",
     "routePath": "/gecrec",
     "module": "./App"
+  },
+  {
+    "url": ["http://localhost:9004", "http://localhost:9000/mf-simurg_plotter"],
+    "name": "simurg_plotter",
+    "serviceName": "simurg_plotter",
+    "routePath": "/simurg_plotter",
+    "module": "./App"
   }
 ]

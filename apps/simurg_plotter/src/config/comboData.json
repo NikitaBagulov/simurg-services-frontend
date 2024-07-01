@@ -1,0 +1,63 @@
+{
+  "combos": [
+    {
+      "id": "combo1",
+      "name": "Map2D Single",
+      "image": "map2d.png",
+      "requestSkeleton": {
+        "plot_request": {
+          "height": 9,
+          "dpi": 300,
+          "file_name": "",
+          "nrows": 1,
+          "ncols": 1,
+          "plots": [
+            {
+              "row": 0,
+              "col": 0,
+              "plot_type": "map2d",
+              "data_file": "./data/dtec_2_10_2017_001_-90_90_N_-180_180_E_3d57.h5",
+              "title": "string",
+              "timestamp": "",
+              "rowspan": 1,
+              "colspan": 1,
+              "colorbar": true,
+              "product_type": "dtec_2_10",
+              "min_lat": -90,
+              "max_lat": 90,
+              "min_lon": -180,
+              "max_lon": 180
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "combo2",
+      "name": "GIM Single",
+      "image": "gim.png",
+      "requestSkeleton": {
+        "plot_request": {
+          "height": 9,
+          "dpi": 300,
+          "file_name": "./data/uqrg0010.17i",
+          "nrows": 1,
+          "ncols": 1,
+          "plots": [
+            {
+              "row": 0,
+              "col": 0,
+              "plot_type": "gim",
+              "data_file": "",
+              "title": "string",
+              "timestamp": "",
+              "rowspan": 1,
+              "colspan": 1,
+              "colorbar": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

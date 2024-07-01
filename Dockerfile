@@ -28,3 +28,8 @@ FROM nginx:alpine AS gecrec
 COPY --from=build /usr/src/app/apps/gecrec/dist /usr/share/nginx/html
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 CMD ["nginx", "-g", "daemon off;"]
+
+FROM nginx:alpine AS simurg_plotter
+COPY --from=build /usr/src/app/apps/gecrec/dist /usr/share/nginx/html
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
+CMD ["nginx", "-g", "daemon off;"]
